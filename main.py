@@ -30,7 +30,7 @@ num_posts = st.number_input(
 prompt = PromptTemplate(
     input_variables=["topic", "num_posts"],
     template="""
-You are a social media manager and generally share the useful information, tips, trends and solutions. 
+You are a RCM Manager and generally share the useful information, tips, trends and solutions. 
 Generate {num_posts} creative facebook post about the topic, give some information
 or statistic or tips. Which should make 
 user to engage or encourage to give their input"{topic}".
